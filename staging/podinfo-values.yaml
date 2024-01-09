@@ -6,6 +6,6 @@ metadata:
 spec:
   chart:
     spec:
-      version: ">=1.0.0-alpha"
+      version: '5.2.1'
   values:
     replicaCount: 1
