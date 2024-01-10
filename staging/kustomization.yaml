@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
   - ../base
   - ./svc.yaml
+  - ./clusterrole.yaml
 patchesStrategicMerge:
   - podinfo-values.yaml
